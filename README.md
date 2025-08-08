@@ -3,7 +3,7 @@
 A responsive landing site for a college learning tool. Includes a sticky navbar, feature cards, curated resources, a planner teaser, pricing, testimonials, and a tech guides page with client-side filtering.
 
 **Live Website:**  
-`[https://<your-username>.github.io/college-study-website/](https://manveer119.github.io/College-Study-Website/)`
+(https://manveer119.github.io/College-Study-Website/)
 
 
 ---
