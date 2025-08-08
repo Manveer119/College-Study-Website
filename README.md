@@ -1,6 +1,6 @@
 # NEXT — College Study Website
 
-A responsive landing site for a college learning tool. Includes a sticky navbar, hero with a 3×3 media grid, feature cards, curated resources, a planner teaser, pricing, testimonials, and a tech guides page with client-side filtering.
+A responsive landing site for a college learning tool. Includes a sticky navbar, feature cards, curated resources, a planner teaser, pricing, testimonials, and a tech guides page with client-side filtering.
 
 **Live Demo:**  
 `https://<your-username>.github.io/college-study-website/`
