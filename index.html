@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEXT — Study Better</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav__inner">
+      <a href="#" id="navbar__logo">NEXT</a>
+
+      <!-- Mobile menu toggle (CSS-only) -->
+      <input type="checkbox" id="nav-toggle" class="nav__checkbox" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav__toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav__menu">
+        <a href="#features" class="nav__link">Features</a>
+        <a href="#resources" class="nav__link">Resources</a>
+        <a href="#planner" class="nav__link">Planner</a>
+        <a href="#pricing" class="nav__link">Pricing</a>
+        <a href="#cta" class="button button--sm">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+    <!-- PAGE HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <h1>Study smarter, not longer.</h1>
+        <p>Plan your week, track assignments, and master tough topics with bite-size lessons—built for college students.</p>
+        <div class="hero__actions">
+          <a href="#cta" class="button">Get Started Free</a>
+          <a href="#features" class="button button--ghost">See Features</a>
+        </div>
+        <ul class="hero__badges">
+          <li>No credit card</li>
+          <li>Syncs across devices</li>
+          <li>Dark mode</li>
+        </ul>
+      </div>
+      <div class="hero__media" aria-hidden="true">
+        
+       
+  
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section__title">Everything you need to stay on top</h2>
+      <p class="section__subtitle">Organize, learn, and track progress without the chaos.</p>
+
+      <div class="grid grid--3">
+        <div class="card">
+          <div class="card__icon">🗓️</div>
+          <h3>Smart Planner</h3>
+          <p>Auto-prioritize tasks by due date and difficulty. Block study time that fits your class schedule.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🧠</div>
+          <h3>Spaced Reviews</h3>
+          <p>Flashcards with spaced repetition so concepts actually stick before exams.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">📊</div>
+          <h3>Progress Insights</h3>
+          <p>See streaks, weekly hours, and topic mastery to keep motivation high.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Curated resources by course</h2>
+      <p class="section__subtitle">Handpicked videos, notes, and problem sets for core subjects.</p>
+
+      <div class="grid grid--3">
+        <div class="card card--list">
+          <h3>Calculus I</h3>
+          <ul>
+            <li>Limits & Continuity crash course</li>
+            <li>Derivatives practice set (50 Qs)</li>
+            <li>Integration by parts guide</li>
+          </ul>
+          <a href="#" class="link">Open collection →</a>
+        </div>
+        <div class="card card--list">
+          <h3>Intro to CS</h3>
+          <ul>
+            <li>Python cheat sheet</li>
+            <li>Big-O visual explainer</li>
+            <li>100 SQL practice queries</li>
+          </ul>
+          <a href="#" class="link">Open collection →</a>
+        </div>
+        <div class="card card--list">
+          <h3>Statistics</h3>
+          <ul>
+            <li>Probability quick reference</li>
+            <li>Hypothesis testing flowchart</li>
+            <li>Common distributions mini guide</li>
+          </ul>
+          <a href="#" class="link">Open collection →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANNER TEASER -->
+  <section id="planner" class="section">
+    <div class="container planner">
+      <div class="planner__copy">
+        <h2>Turn chaos into a clear plan</h2>
+        <p>Dump your assignments and we’ll generate a study plan that fits your week. Edit anytime.</p>
+        <ul class="checklist">
+          <li>Import from syllabus</li>
+          <li>Sync to Google/Apple Calendar</li>
+          <li>Auto reminders before deadlines</li>
+        </ul>
+        <a href="#cta" class="button">Try the Planner</a>
+      </div>
+      <div class="planner__board" aria-hidden="true">
+        <div class="board">
+          <div class="board__col">
+            <h4>To Do</h4>
+            <div class="pill">Calc Homework 3</div>
+            <div class="pill">CS Lab Setup</div>
+          </div>
+          <div class="board__col">
+            <h4>In Progress</h4>
+            <div class="pill pill--active">Stats Quiz Prep</div>
+          </div>
+          <div class="board__col">
+            <h4>Done</h4>
+            <div class="pill pill--done">English Outline</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Simple pricing</h2>
+      <p class="section__subtitle">Get started free. Upgrade when you’re ready.</p>
+
+      <div class="grid grid--3 pricing">
+        <div class="card">
+          <h3>Free</h3>
+          <p class="price">$0</p>
+          <ul class="list">
+            <li>Planner & Tasks</li>
+            <li>Basic flashcards</li>
+            <li>1 project board</li>
+          </ul>
+          <a class="button button--ghost" href="#cta">Start Free</a>
+        </div>
+        <div class="card card--highlight">
+          <div class="badge">Most Popular</div>
+          <h3>Plus</h3>
+          <p class="price">$4.99/mo</p>
+          <ul class="list">
+            <li>Unlimited boards</li>
+            <li>Spaced repetition</li>
+            <li>Calendar sync</li>
+          </ul>
+          <a class="button" href="#cta">Go Plus</a>
+        </div>
+        <div class="card">
+          <h3>Team</h3>
+          <p class="price">$2.99/mo per seat</p>
+          <ul class="list">
+            <li>Group spaces</li>
+            <li>Shared resources</li>
+            <li>Team analytics</li>
+          </ul>
+          <a class="button button--ghost" href="#cta">Create Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Trusted by students</h2>
+      <div class="grid grid--3">
+        <blockquote class="quote">“My grades improved because I finally had a routine.” <span>— CS Junior</span></blockquote>
+        <blockquote class="quote">“The flashcards + planner combo is clutch before midterms.” <span>— Business Sophomore</span></blockquote>
+        <blockquote class="quote">“I stopped missing deadlines. Worth it.” <span>— Biology Senior</span></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="cta">
+    <div class="container cta__inner">
+      <h2>Ready to study the easy way?</h2>
+      <p>Create your free account in under a minute.</p>
+      <form class="cta__form" action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your college email" required>
+        <button class="button" type="submit">Create Account</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="footer__logo">NEXT</a>
+      <nav class="footer__nav">
+        <a href="#features">Features</a>
+        <a href="#resources">Resources</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#">Privacy</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> NEXT Learning • Built for students</p>
+    </div>
+  </footer>
+
+  <!-- tiny inline script -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

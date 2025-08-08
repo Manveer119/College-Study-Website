@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEXT — Tech Guides</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" id="navbar__logo">NEXT</a>
+
+      <!-- Mobile menu -->
+      <input type="checkbox" id="nav-toggle" class="nav__checkbox" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav__toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav__menu">
+        <a href="index.html#features" class="nav__link">Features</a>
+        <a href="index.html#resources" class="nav__link">Resources</a>
+        <a href="index.html#planner" class="nav__link">Planner</a>
+        <a href="index.html#pricing" class="nav__link">Pricing</a>
+        <a href="tech.html" class="button button--sm">Tech Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <h1>Tech guides for students</h1>
+        <p>Short, practical walkthroughs: SQL, Python, Git, cloud, and security basics—everything you need to ship projects and ace interviews.</p>
+        <div class="hero__actions">
+          <a href="#guides" class="button">Browse Guides</a>
+          <a href="index.html#cta" class="button button--ghost">Create Account</a>
+        </div>
+      </div>
+      <div class="hero__media" aria-hidden="true">
+        <div class="mockup">
+          <div class="mockup__bar"></div>
+          <div class="mockup__grid">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="section section--alt" id="guides">
+    <div class="container">
+      <h2 class="section__title">Guides & Tutorials</h2>
+      <p class="section__subtitle">Filter by topic to jump to what you need.</p>
+
+      <div class="grid" style="grid-template-columns:1fr;">
+        <div class="card" style="display:flex; gap:.5rem; flex-wrap:wrap;">
+          <button class="button button--ghost filter-btn" data-filter="all">All</button>
+          <button class="button button--ghost filter-btn" data-filter="ai">AI/ML</button>
+          <button class="button button--ghost filter-btn" data-filter="data">Data/SQL</button>
+          <button class="button button--ghost filter-btn" data-filter="security">Security</button>
+          <button class="button button--ghost filter-btn" data-filter="productivity">Productivity</button>
+        </div>
+      </div>
+
+      <!-- RESOURCE GRID -->
+      <div class="grid grid--3" id="guideGrid">
+        <!-- Data/SQL -->
+        <article class="card guide" data-cat="data">
+          <h3>SQL Crash Course</h3>
+          <p>SELECT to JOIN in 20 minutes + 15 practice prompts.</p>
+          <ul class="list">
+            <li>Query flow & mental model</li>
+            <li>Common JOIN mistakes</li>
+            <li>Practice: subqueries & window funcs</li>
+          </ul>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <article class="card guide" data-cat="data">
+          <h3>Tableau/Power BI Basics</h3>
+          <p>Clean data, build a dashboard, tell a story in 30 minutes.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <!-- AI/ML -->
+        <article class="card guide" data-cat="ai">
+          <h3>Intro to Python + Pandas</h3>
+          <p>Load a CSV, wrangle columns, plot insights—starter notebook.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <article class="card guide" data-cat="ai">
+          <h3>Build a Tiny Classifier</h3>
+          <p>Train/test split, metrics, and a baseline model you can explain.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <!-- Security -->
+        <article class="card guide" data-cat="security">
+          <h3>Cybersecurity Basics</h3>
+          <p>CIA triad, common threats, password + MFA best practices.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <article class="card guide" data-cat="security">
+          <h3>Secure Your GitHub</h3>
+          <p>SSH keys, branch protection, secret scanning, dependabot.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <!-- Productivity -->
+        <article class="card guide" data-cat="productivity">
+          <h3>Project Setup Template</h3>
+          <p>VS Code settings, folder structure, README checklist.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+
+        <article class="card guide" data-cat="productivity">
+          <h3>Study System: 5×1 Method</h3>
+          <p>Five focused sessions + one recap to lock concepts.</p>
+          <a class="link" href="#">Open guide →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <h2>Want step-by-step templates?</h2>
+      <p>Save guides, track your progress, and export notes.</p>
+      <form class="cta__form" action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your college email" required>
+        <button class="button" type="submit">Create Account</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="footer__logo">NEXT</a>
+      <nav class="footer__nav">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#resources">Resources</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="#">Privacy</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> NEXT Learning • Built for students</p>
+    </div>
+  </footer>
+</body>
+</html>
