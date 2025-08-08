@@ -2,7 +2,7 @@
 
 A responsive landing site for a college learning tool. Includes a sticky navbar, hero with a 3×3 media grid, feature cards, curated resources, a planner teaser, pricing, testimonials, and a tech guides page with client-side filtering.
 
-**Live Demo:** *(replace after you deploy to GitHub Pages)*  
+**Live Demo:**  
 `https://<your-username>.github.io/college-study-website/`
 
 **Repo:**  
@@ -10,7 +10,7 @@ A responsive landing site for a college learning tool. Includes a sticky navbar,
 
 ---
 
-## � Objective
+##  Objective
 Build a polished, mobile-friendly website that showcases a “study smarter” platform for college students—highlighting features like a smart planner, spaced repetition, curated resources, and tech guides—while demonstrating front-end skills (HTML/CSS/JS) and good project hygiene (Git, GitHub Pages).
 
 ---
